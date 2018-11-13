@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.overscroller.over.OverNestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BounceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#c489c4"
+            android:gravity="center"
+            android:text="Over1"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#dfe276"
+            android:gravity="center"
+            android:text="Over2"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#11df00"
+            android:gravity="center"
+            android:text="Over3"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#CCCCCC"
+            android:gravity="center"
+            android:text="Over4"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#8383a7"
+            android:gravity="center"
+            android:text="Over2"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#7dba78"
+            android:gravity="center"
+            android:text="Over3"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#CCCCCC"
+            android:gravity="center"
+            android:text="Over4"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#CCCCCC"
+            android:gravity="center"
+            android:text="Over4"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#639987"
+            android:gravity="center"
+            android:text="Over2"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#5f795c"
+            android:gravity="center"
+            android:text="Over3"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#CCCCCC"
+            android:gravity="center"
+            android:text="Over4"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#CCCCCC"
+            android:gravity="center"
+            android:text="Over4"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#696983"
+            android:gravity="center"
+            android:text="Over2"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#11df00"
+            android:gravity="center"
+            android:text="Over3"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#CCCCCC"
+            android:gravity="center"
+            android:text="Over4"
+            android:textSize="20dp"/>
+    </LinearLayout>
+</com.example.overscroller.over.OverNestedScrollView>
