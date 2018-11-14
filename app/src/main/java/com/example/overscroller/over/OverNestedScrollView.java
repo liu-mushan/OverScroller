@@ -46,7 +46,7 @@ import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.animation.AnimationUtils;
-import android.view.animation.LinearInterpolator;
+import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 import android.widget.OverScroller;
 import android.widget.ScrollView;
@@ -894,8 +894,8 @@ public class OverNestedScrollView extends FrameLayout implements NestedScrolling
         return true;
     }
 
-    private static final float INIT_RATE = 0.5f;
-    private android.view.animation.Interpolator interpolator = new LinearInterpolator();
+    private static final float INIT_RATE = 0.8f;
+    private android.view.animation.Interpolator interpolator = new DecelerateInterpolator();
 
     private float getScrollRate(int scrollY, int totalDistance) {
         float q = 1 - interpolator.getInterpolation(Math.abs(scrollY) * 1.0f / Math.abs(totalDistance));
